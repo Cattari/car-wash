@@ -78,7 +78,7 @@ import com.android.build.OutputFile
  */
 
 project.ext.react = [
-    enableHermes: false,  // clean and rebuild if changing
+    enableHermes: true,  // clean and rebuild if changing
 ]
 
 apply from: "../../node_modules/react-native/react.gradle"
@@ -191,6 +191,9 @@ dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
     //noinspection GradleDynamicVersion
     implementation "com.facebook.react:react-native:+"  // From node_modules
+    implementation "com.google.android.gms:play-services-base:+"
+    implementation "com.google.android.gms:play-services-location:+"
+    implementation "com.google.android.gms:play-services-maps:+"
 
     implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
 
