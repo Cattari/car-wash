@@ -19,6 +19,8 @@
     "moment": "^2.24.0",
     "react": "16.11.0",
     "react-native": "0.62.1",
+    "react-native-config": "^1.0.0",
+    "react-native-dotenv": "^0.2.0",
     "react-native-geolocation-service": "^4.0.0",
     "react-native-gesture-handler": "^1.6.1",
     "react-native-google-maps-directions": "^2.1.1",
