@@ -71,7 +71,6 @@ const CarWashesMapScreen = ({position, carWashes}) => {
       {selectedMarker && (
         <PlaceDirectionView
           {...selectedMarker}
-          name={selectedMarker.name}
           address={selectedMarker.address}
           sourcePosition={region}
           destinationPosition={selectedMarker}

@@ -3,6 +3,7 @@ import SplashScreen from 'react-native-splash-screen';
 import CarWashesMap from './CarWashesMap';
 import WeatherDashboardScreen from './WeatherDashboard';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
+import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import {
   useUserLocation,
   useGoogleReverseGeocoding,
@@ -31,8 +32,6 @@ const MainScreen = () => {
     isLoadingCurrentWeather ||
     isLoadingForecast;
 
-  console.log(isLoadingData, isLoadingAddress);
-
   useEffect(() => {
     if (isLoadingData) {
       return;
@@ -45,8 +44,33 @@ const MainScreen = () => {
   }
 
   return (
-    <Tab.Navigator>
-      <Tab.Screen name="Wash or not">
+    <Tab.Navigator
+      initialRouteName="Wash or not"
+      tabBarOptions={{
+        style: {
+          borderTopWidth: 0,
+          borderTopColor: 'transparent',
+          backgroundColor: '#878787',
+          justifyContent: 'center',
+          alignItems: 'center',
+        },
+        activeBackgroundColor: 'transparent',
+        inactiveTintColor: 'white',
+        activeTintColor: 'orange',
+        inactiveBackgroundColor: 'transparent',
+        tabStyle: {
+          flex: 0.35,
+          justifyContent: 'center',
+          alignItems: 'center',
+        },
+      }}>
+      <Tab.Screen
+        name="Wash or not"
+        options={{
+          tabBarIcon: ({color, size}) => (
+            <MaterialCommunityIcons name="cloud" color={color} size={size} />
+          ),
+        }}>
         {(props) => (
           <WeatherDashboardScreen
             {...props}
@@ -56,7 +80,17 @@ const MainScreen = () => {
           />
         )}
       </Tab.Screen>
-      <Tab.Screen name="Closest Car washes">
+      <Tab.Screen
+        name="Closest Car Washes"
+        options={{
+          tabBarIcon: ({color, size}) => (
+            <MaterialCommunityIcons
+              name="map-marker"
+              color={color}
+              size={size}
+            />
+          ),
+        }}>
         {(props) => (
           <CarWashesMap {...props} position={position} carWashes={carWashes} />
         )}

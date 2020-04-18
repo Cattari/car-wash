@@ -6,6 +6,7 @@ import {DAYS_TO_CHECK_WASH_FORECAST} from '../constants';
 const styles = StyleSheet.create({
   container: {
     width: '100%',
+    marginBottom: 20,
   },
   title: {
     textAlign: 'center',

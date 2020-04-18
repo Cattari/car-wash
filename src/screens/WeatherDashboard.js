@@ -21,9 +21,21 @@ const styles = StyleSheet.create({
     width: '100%',
   },
   mainInfoBlock: {
+    flex: 1,
     margin: 20,
     padding: 10,
-    backgroundColor: 'rgba(0,0,0, 0.4)',
+    backgroundColor: 'rgba(0,0,0, 0.6)',
+  },
+  washTitle: {
+    fontSize: 20,
+    marginVertical: 15,
+  },
+  textWhite: {
+    color: 'white',
+  },
+  centeredText: {
+    width: '100%',
+    textAlign: 'center',
   },
 });
 
@@ -44,6 +56,8 @@ const WeatherDashboardScreen = ({
     return carWashImage;
   }, [isRainPresent]);
 
+  console.log(geocodedAddress);
+
   return (
     <View style={styles.container}>
       <ImageBackground
@@ -54,13 +68,16 @@ const WeatherDashboardScreen = ({
         <View style={styles.mainInfoBlock}>
           {currentWeather && <CurrentWeather data={currentWeather} />}
           {geocodedAddress && (
-            <Text>
+            <Text style={[styles.textWhite, styles.centeredText]}>
               {addressWithoutPlusCode(
                 geocodedAddress?.plus_code?.compound_code || '',
               )}
             </Text>
           )}
-          <Text>Wash or not Today?</Text>
+          <Text
+            style={[styles.washTitle, styles.textWhite, styles.centeredText]}>
+            Wash or not Today?
+          </Text>
           {Boolean(forecast.length) && (
             <WashIndicator isRainPresent={isRainPresent} />
           )}

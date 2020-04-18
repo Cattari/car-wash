@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
     height: '100%',
     paddingVertical: 5,
     paddingHorizontal: 10,
-    backgroundColor: 'rgba(0,0,0, 0.3)',
+    backgroundColor: 'rgba(0,0,0, 0.6)',
   },
   degreeText: {
     color: 'white',

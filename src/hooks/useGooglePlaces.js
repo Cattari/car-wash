@@ -9,7 +9,7 @@ const useGooglePlaces = ({keyword, radius = 5000, position}) => {
     if (!position) {
       return;
     }
-    const {latitude, longitude} = position.coords;
+    const {latitude, longitude} = position;
     const params = {
       key: GOOGLE_API_KEY,
       location: `${latitude},${longitude}`,

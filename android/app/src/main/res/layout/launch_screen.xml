@@ -6,9 +6,9 @@
       android:id="@+id/text_view_id"
       android:textColor="#FFFFFF"
       android:textSize="32dp"
+      android:layout_width="match_parent" 
+      android:layout_height="match_parent" 
       android:gravity="center"
       android:includeFontPadding="false"
-      android:layout_height="wrap_content"
-      android:layout_width="wrap_content"
       android:text="@string/loading" />
 </RelativeLayout>
