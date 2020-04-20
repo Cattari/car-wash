@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* CarWashTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CarWashTests.m */; };
-		11162358B5803FB74DD03C22 /* libPods-CarWash-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1473CF84329D9E2DD6CC2266 /* libPods-CarWash-tvOS.a */; };
+		09BEAF4CCD530AADFB5F86CA /* libPods-CarWash-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 211C2E445E9F7DD63E9AEA61 /* libPods-CarWash-tvOS.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1F0A4754FDD7B94FB6C79075 /* libPods-CarWash.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C818CEC336C2E01408EF5F71 /* libPods-CarWash.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* CarWashTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CarWashTests.m */; };
-		98CE28B3D919E5CFEA17DCAC /* libPods-CarWash-CarWashTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A47DA36BC9391D18D1E70862 /* libPods-CarWash-CarWashTests.a */; };
-		D49C7AF4743256F84A72C6FE /* libPods-CarWash-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 993EDB3B53D70D0C9B507BD4 /* libPods-CarWash-tvOSTests.a */; };
-		E887C72FFAFF2CA584AAA751 /* libPods-CarWash.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF3E6D4D00D53BC11F1329C /* libPods-CarWash.a */; };
+		5E878FBA775E8B1471186DF2 /* libPods-CarWash-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C27210892393AC1334B8B6D7 /* libPods-CarWash-tvOSTests.a */; };
+		BAB7ACCA17EE800ABDB29847 /* libPods-CarWash-CarWashTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8FC5FCC2DABA02015BE928D /* libPods-CarWash-CarWashTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,22 +51,22 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = CarWash/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CarWash/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CarWash/main.m; sourceTree = "<group>"; };
-		1473CF84329D9E2DD6CC2266 /* libPods-CarWash-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarWash-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		183EC2F50B6A006A4D3F3B20 /* Pods-CarWash-CarWashTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarWash-CarWashTests.release.xcconfig"; path = "Target Support Files/Pods-CarWash-CarWashTests/Pods-CarWash-CarWashTests.release.xcconfig"; sourceTree = "<group>"; };
+		211C2E445E9F7DD63E9AEA61 /* libPods-CarWash-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarWash-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23E8A90EAAD155C3D6673B60 /* Pods-CarWash-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarWash-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-CarWash-tvOSTests/Pods-CarWash-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		29BAB1B22D41E8FCC5C6697B /* Pods-CarWash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarWash.debug.xcconfig"; path = "Target Support Files/Pods-CarWash/Pods-CarWash.debug.xcconfig"; sourceTree = "<group>"; };
+		2B71341ACA11C9C43E37EC1E /* Pods-CarWash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarWash.release.xcconfig"; path = "Target Support Files/Pods-CarWash/Pods-CarWash.release.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* CarWash-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CarWash-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* CarWash-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CarWash-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		317F3F11BA782CBCE316F9D5 /* Pods-CarWash-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarWash-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-CarWash-tvOSTests/Pods-CarWash-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		54455A1BB89DE9DB9CA04723 /* Pods-CarWash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarWash.debug.xcconfig"; path = "Target Support Files/Pods-CarWash/Pods-CarWash.debug.xcconfig"; sourceTree = "<group>"; };
-		677BAEE2472907664FF7C541 /* Pods-CarWash-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarWash-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-CarWash-tvOSTests/Pods-CarWash-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		7DA7488982A344518E2C58F5 /* Pods-CarWash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarWash.release.xcconfig"; path = "Target Support Files/Pods-CarWash/Pods-CarWash.release.xcconfig"; sourceTree = "<group>"; };
-		8377276F161333C3A24538CD /* Pods-CarWash-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarWash-tvOS.release.xcconfig"; path = "Target Support Files/Pods-CarWash-tvOS/Pods-CarWash-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		8C62F5F8175F85398DA58475 /* Pods-CarWash-CarWashTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarWash-CarWashTests.debug.xcconfig"; path = "Target Support Files/Pods-CarWash-CarWashTests/Pods-CarWash-CarWashTests.debug.xcconfig"; sourceTree = "<group>"; };
-		9218FABF6C92F7FEFA87B7D6 /* Pods-CarWash-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarWash-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-CarWash-tvOS/Pods-CarWash-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		993EDB3B53D70D0C9B507BD4 /* libPods-CarWash-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarWash-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A47DA36BC9391D18D1E70862 /* libPods-CarWash-CarWashTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarWash-CarWashTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BDF3E6D4D00D53BC11F1329C /* libPods-CarWash.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarWash.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6E18E85E9312FFB78950271 /* Pods-CarWash-CarWashTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarWash-CarWashTests.release.xcconfig"; path = "Target Support Files/Pods-CarWash-CarWashTests/Pods-CarWash-CarWashTests.release.xcconfig"; sourceTree = "<group>"; };
+		2E97EFC8167D3A98E0C734F3 /* Pods-CarWash-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarWash-tvOS.release.xcconfig"; path = "Target Support Files/Pods-CarWash-tvOS/Pods-CarWash-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		84F9EA3AD87A0A6927A35D6E /* Pods-CarWash-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarWash-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-CarWash-tvOSTests/Pods-CarWash-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C27210892393AC1334B8B6D7 /* libPods-CarWash-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarWash-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C818CEC336C2E01408EF5F71 /* libPods-CarWash.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarWash.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC28F1242FD88D9FE104A45C /* Pods-CarWash-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarWash-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-CarWash-tvOS/Pods-CarWash-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		E8FC5FCC2DABA02015BE928D /* libPods-CarWash-CarWashTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CarWash-CarWashTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F8B4EE400D441945C4B59296 /* Pods-CarWash-CarWashTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CarWash-CarWashTests.debug.xcconfig"; path = "Target Support Files/Pods-CarWash-CarWashTests/Pods-CarWash-CarWashTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98CE28B3D919E5CFEA17DCAC /* libPods-CarWash-CarWashTests.a in Frameworks */,
+				BAB7ACCA17EE800ABDB29847 /* libPods-CarWash-CarWashTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E887C72FFAFF2CA584AAA751 /* libPods-CarWash.a in Frameworks */,
+				1F0A4754FDD7B94FB6C79075 /* libPods-CarWash.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11162358B5803FB74DD03C22 /* libPods-CarWash-tvOS.a in Frameworks */,
+				09BEAF4CCD530AADFB5F86CA /* libPods-CarWash-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D49C7AF4743256F84A72C6FE /* libPods-CarWash-tvOSTests.a in Frameworks */,
+				5E878FBA775E8B1471186DF2 /* libPods-CarWash-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,33 +136,33 @@
 			name = CarWash;
 			sourceTree = "<group>";
 		};
-		16C071CB09F8BA152F50E265 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				54455A1BB89DE9DB9CA04723 /* Pods-CarWash.debug.xcconfig */,
-				7DA7488982A344518E2C58F5 /* Pods-CarWash.release.xcconfig */,
-				8C62F5F8175F85398DA58475 /* Pods-CarWash-CarWashTests.debug.xcconfig */,
-				E6E18E85E9312FFB78950271 /* Pods-CarWash-CarWashTests.release.xcconfig */,
-				9218FABF6C92F7FEFA87B7D6 /* Pods-CarWash-tvOS.debug.xcconfig */,
-				8377276F161333C3A24538CD /* Pods-CarWash-tvOS.release.xcconfig */,
-				317F3F11BA782CBCE316F9D5 /* Pods-CarWash-tvOSTests.debug.xcconfig */,
-				677BAEE2472907664FF7C541 /* Pods-CarWash-tvOSTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				BDF3E6D4D00D53BC11F1329C /* libPods-CarWash.a */,
-				A47DA36BC9391D18D1E70862 /* libPods-CarWash-CarWashTests.a */,
-				1473CF84329D9E2DD6CC2266 /* libPods-CarWash-tvOS.a */,
-				993EDB3B53D70D0C9B507BD4 /* libPods-CarWash-tvOSTests.a */,
+				C818CEC336C2E01408EF5F71 /* libPods-CarWash.a */,
+				E8FC5FCC2DABA02015BE928D /* libPods-CarWash-CarWashTests.a */,
+				211C2E445E9F7DD63E9AEA61 /* libPods-CarWash-tvOS.a */,
+				C27210892393AC1334B8B6D7 /* libPods-CarWash-tvOSTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E6C9A0CBB760D67A54042A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29BAB1B22D41E8FCC5C6697B /* Pods-CarWash.debug.xcconfig */,
+				2B71341ACA11C9C43E37EC1E /* Pods-CarWash.release.xcconfig */,
+				F8B4EE400D441945C4B59296 /* Pods-CarWash-CarWashTests.debug.xcconfig */,
+				183EC2F50B6A006A4D3F3B20 /* Pods-CarWash-CarWashTests.release.xcconfig */,
+				CC28F1242FD88D9FE104A45C /* Pods-CarWash-tvOS.debug.xcconfig */,
+				2E97EFC8167D3A98E0C734F3 /* Pods-CarWash-tvOS.release.xcconfig */,
+				84F9EA3AD87A0A6927A35D6E /* Pods-CarWash-tvOSTests.debug.xcconfig */,
+				23E8A90EAAD155C3D6673B60 /* Pods-CarWash-tvOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -180,7 +180,7 @@
 				00E356EF1AD99517003FC87E /* CarWashTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				16C071CB09F8BA152F50E265 /* Pods */,
+				4E6C9A0CBB760D67A54042A0 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -205,10 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "CarWashTests" */;
 			buildPhases = (
-				6F5EEC495363BE1D448B7915 /* [CP] Check Pods Manifest.lock */,
+				1CD91CE78319E47A84ED5B7F /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
+				65A21251CCE6F37A9F610CDD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -224,12 +225,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "CarWash" */;
 			buildPhases = (
-				52FE97B1F7C6092367EC081F /* [CP] Check Pods Manifest.lock */,
+				29228A067F6FB6E226FA2700 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				18EFB0569F4A8C281431E6B0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,7 +246,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "CarWash-tvOS" */;
 			buildPhases = (
-				3A8C624F577F009D42C47513 /* [CP] Check Pods Manifest.lock */,
+				E01976F654542057DE3D8AC7 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -264,7 +266,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "CarWash-tvOSTests" */;
 			buildPhases = (
-				D3A5B14AF3BDDBEF9C0E815A /* [CP] Check Pods Manifest.lock */,
+				0219F9C5207E97BFA9005A88 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -375,21 +377,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Bundle React Native Code And Images";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
-		};
-		3A8C624F577F009D42C47513 /* [CP] Check Pods Manifest.lock */ = {
+		0219F9C5207E97BFA9005A88 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -404,36 +392,64 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CarWash-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CarWash-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		52FE97B1F7C6092367EC081F /* [CP] Check Pods Manifest.lock */ = {
+		18EFB0569F4A8C281431E6B0 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
+				"${PODS_ROOT}/Target Support Files/Pods-CarWash/Pods-CarWash-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
 			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CarWash-checkManifestLockResult.txt",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarWash/Pods-CarWash-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6F5EEC495363BE1D448B7915 /* [CP] Check Pods Manifest.lock */ = {
+		1CD91CE78319E47A84ED5B7F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -455,7 +471,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D3A5B14AF3BDDBEF9C0E815A /* [CP] Check Pods Manifest.lock */ = {
+		29228A067F6FB6E226FA2700 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -470,7 +486,93 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CarWash-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CarWash-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		65A21251CCE6F37A9F610CDD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CarWash-CarWashTests/Pods-CarWash-CarWashTests-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CarWash-CarWashTests/Pods-CarWash-CarWashTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E01976F654542057DE3D8AC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CarWash-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -582,7 +684,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C62F5F8175F85398DA58475 /* Pods-CarWash-CarWashTests.debug.xcconfig */;
+			baseConfigurationReference = F8B4EE400D441945C4B59296 /* Pods-CarWash-CarWashTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -605,7 +707,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6E18E85E9312FFB78950271 /* Pods-CarWash-CarWashTests.release.xcconfig */;
+			baseConfigurationReference = 183EC2F50B6A006A4D3F3B20 /* Pods-CarWash-CarWashTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -625,7 +727,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54455A1BB89DE9DB9CA04723 /* Pods-CarWash.debug.xcconfig */;
+			baseConfigurationReference = 29BAB1B22D41E8FCC5C6697B /* Pods-CarWash.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -652,7 +754,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DA7488982A344518E2C58F5 /* Pods-CarWash.release.xcconfig */;
+			baseConfigurationReference = 2B71341ACA11C9C43E37EC1E /* Pods-CarWash.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -673,7 +775,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9218FABF6C92F7FEFA87B7D6 /* Pods-CarWash-tvOS.debug.xcconfig */;
+			baseConfigurationReference = CC28F1242FD88D9FE104A45C /* Pods-CarWash-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -701,7 +803,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8377276F161333C3A24538CD /* Pods-CarWash-tvOS.release.xcconfig */;
+			baseConfigurationReference = 2E97EFC8167D3A98E0C734F3 /* Pods-CarWash-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -729,7 +831,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 317F3F11BA782CBCE316F9D5 /* Pods-CarWash-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 84F9EA3AD87A0A6927A35D6E /* Pods-CarWash-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -756,7 +858,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 677BAEE2472907664FF7C541 /* Pods-CarWash-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 23E8A90EAAD155C3D6673B60 /* Pods-CarWash-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;

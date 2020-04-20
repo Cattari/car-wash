@@ -7,7 +7,7 @@
  */
 
 import React, {useState, useEffect, useCallback} from 'react';
-import {StatusBar} from 'react-native';
+import {StatusBar, Platform} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
 import {request, PERMISSIONS} from 'react-native-permissions';
 import {MainScreen} from './screens';
@@ -15,8 +15,11 @@ import {MainScreen} from './screens';
 const App = () => {
   const [isInitialized, setInitialized] = useState(false);
   const initialize = useCallback(async () => {
-    await request(PERMISSIONS.ANDROID.ACCESS_FINE_LOCATION);
-
+    await request(
+      Platform.OS === 'android'
+        ? PERMISSIONS.ANDROID.ACCESS_FINE_LOCATION
+        : PERMISSIONS.IOS.LOCATION_WHEN_IN_USE,
+    );
     setInitialized(true);
   }, [setInitialized]);
 

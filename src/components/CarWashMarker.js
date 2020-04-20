@@ -8,15 +8,19 @@ const CarWashMarker = (props) => {
     latitude,
     longitude,
   ]);
-  const onMarkerPress = useCallback(() => onPress(omit(props, 'onPress')), [
-    props,
-    onPress,
-  ]);
+  const onMarkerPress = useCallback(
+    (event) => {
+      event.stopPropagation();
+      onPress(omit(props, 'onPress'));
+    },
+    [props, onPress],
+  );
 
   return (
     <Marker
       onPress={onMarkerPress}
       coordinate={coordinate}
+      tracksViewChanges={false}
       title={name}
       description={address}
     />

@@ -1,7 +1,5 @@
-import React, {memo, useMemo} from 'react';
+import React, {memo} from 'react';
 import {View, Text, StyleSheet} from 'react-native';
-import {checkForecastForRain} from '../helpers';
-import {DAYS_TO_CHECK_WASH_FORECAST} from '../constants';
 
 const styles = StyleSheet.create({
   container: {
@@ -20,7 +18,7 @@ const styles = StyleSheet.create({
     color: 'orange',
   },
   successText: {
-    color: 'green',
+    color: '#00cf37',
   },
 });
 
@@ -40,7 +38,9 @@ const WashIndicator = ({isRainPresent}) => {
   return (
     <View style={styles.container}>
       <Text style={[styles.successText, styles.title]}>Okay</Text>
-      <Text style={[styles.successText, styles.description]}>Okay</Text>
+      <Text style={[styles.successText, styles.description]}>
+        The weather is supposed to be good for washing your car
+      </Text>
     </View>
   );
 };

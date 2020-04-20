@@ -16,6 +16,9 @@ const styles = StyleSheet.create({
   map: {
     ...StyleSheet.absoluteFillObject,
   },
+  placeView: {
+    marginBottom: 40,
+  },
 });
 
 const DEFAULT_ZOOM = 12.5;
@@ -23,7 +26,7 @@ const DEFAULT_DELTA = zoomToPositionDelta(DEFAULT_ZOOM);
 
 const CarWashesMapScreen = ({position, carWashes}) => {
   const [selectedMarker, setSelectedMarker] = useState(null);
-  const onResetMarker = useCallback(() => setSelectedMarker(null), [
+  const onResetMarker = useCallback((event) => setSelectedMarker(null), [
     setSelectedMarker,
   ]);
   const region = useMemo(() => {
